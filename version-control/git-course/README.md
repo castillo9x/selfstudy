@@ -49,9 +49,30 @@ When we commit, what is in the staging area moves to the new version of the repo
 
 
 
-## Initalization
+## Starting A Project
 
+`$ git config --global user.name “Your Name”`
 
+Set the name that will be attached to your commits and tags.
+
+`$ git config --global user.email “you@example.com”`
+
+Set the e-mail address that will be attached to your commits and tags.
+
+`$ git config --global color.ui auto`
+
+Enable some colorization of Git output.
+
+`$ git init [project name]`
+
+Create a new local repository. If [project name] is provided, Git will
+create a new directory name [project name] and will initialize a
+repository inside it. If [project name] is not provided, then a new
+repository is initialized in the current directory.
+
+`$ git clone [project url]`
+
+Downloads a project with the entire history from the remote repository
 
 ## Day-To-Day Work
 
