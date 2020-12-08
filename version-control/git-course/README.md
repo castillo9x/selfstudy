@@ -124,6 +124,12 @@ Apply stored stash content into working directory, and clear stash.
 
 Delete a specific stash from all your previous stashes
 
+
+`$ git mv [file/folder]`
+
+Move or rename a file, a directory, or a symlink
+
+
 ## Review your work
 
 Review your work
