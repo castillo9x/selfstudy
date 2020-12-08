@@ -157,3 +157,29 @@ branch.
 `$ git reflog`
 
 List operations (e.g. checkouts or commits) made on local repository
+
+## Git branching model
+
+`$ git branch [-a]`
+
+List all local branches in repository. With -a: show all branches
+(with remote).
+
+`$ git branch [branch_name]`
+
+Create new branch, referencing the current HEAD.
+
+`$ git checkout [-b][branch_name]`
+
+Switch working directory to the specified branch. With -b: Git will
+create the specified branch if it does not exist.
+
+`$ git merge [from name]`
+
+Join specified [from name] branch into your current branch (the one
+you are on currently).
+
+`$ git branch -d [name]`
+
+Remove selected branch, if it is already merged into any other.
+-D instead of -d forces deletion.
