@@ -87,3 +87,46 @@ Revert your repository to a previous known working state.
 Create a new commit from changes added to the staging area.
 The commit must have a message!
 
+`$ git rm [file]`
+
+Remove file from working directory and staging area.
+
+`$ git stash`
+
+Put current changes in your working directory into stash for later use.
+
+`$ git stash pop`
+
+Apply stored stash content into working directory, and clear stash.
+
+`$ git stash drop`
+
+Delete a specific stash from all your previous stashes
+
+## Review your work
+
+Review your work
+
+`$ git log [-n count]`
+
+List commit history of current branch. -n count limits list to last n
+commits.
+
+`$ git log --oneline --graph --decorate`
+
+An overview with reference labels and history graph. One commit
+per line.
+
+`$ git log ref..`
+
+List commits that are present on the current branch and not merged
+into ref. A ref can be a branch name or a tag name.
+
+`$ git log ..ref`
+
+List commit that are present on ref and not merged into current
+branch.
+
+`$ git reflog`
+
+List operations (e.g. checkouts or commits) made on local repository
