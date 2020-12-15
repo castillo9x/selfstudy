@@ -47,6 +47,9 @@ The third section is the staging area, also known as the index. It's the area be
 
 When we commit, what is in the staging area moves to the new version of the repository. This excludes what is in the working directory. This allows us to change files however we like, but only what we move to the staging area will be committed. Everything we changed but do not want to put in a repository stays in the working directory.
 
+# Git Objects:
+
+ ![types of objects](../assets/git-objects.png)
 
 
 ## Starting A Project
