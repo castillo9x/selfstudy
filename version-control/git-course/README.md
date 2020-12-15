@@ -49,7 +49,7 @@ When we commit, what is in the staging area moves to the new version of the repo
 
 # Git Objects:
 
- ![types of objects](../assets/git-objects.png)
+ ![types of objects](/assets/git-objects.png)
 
 
 ## Starting A Project
