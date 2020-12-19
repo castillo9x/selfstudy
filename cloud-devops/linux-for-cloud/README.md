@@ -44,6 +44,19 @@ run chmod 0400 command
 | ls -1 | One file per line |
 | ls -m | Comma-­sep­arated output |
 
+## File Operations
+| Syntax | Description |
+| ----------- | ----------- |
+| touch *file1* | Create file1 |
+| cat *file1 file2* | Concat­enate files and output|
+| less *file1* | View and paginate file1 |  
+| file *file1* | Get type of file1|
+| cp *file1 file2* | Copy file1 to file2|
+| mv file1 file2 | Move file1 to file2 |
+| rm file1 | Delete file1 |
+| head file1 | Show first 10 lines of file1|
+| tail file1 | Show last 10 lines of file1|
+| tail -F file1 | Output last lines of file1 as it changes|
 
 ## User Management
 
