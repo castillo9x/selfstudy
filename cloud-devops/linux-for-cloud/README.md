@@ -8,10 +8,14 @@ Linux is based on UNIX and hence it borrows its filesystem hierarchy from UNIX.
 
 ### AWS: EC2 Instance connect
 `ssh -i "FileName.pem" ec2-user@ec2-IP.compute-1.amazonaws.com`
+
 In case of error
+
+`
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+`
 
 run chmod 0400 command
 `chmod 0400 FileName.pem`
