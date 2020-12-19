@@ -20,6 +20,7 @@ In case of error
 `
 
 run chmod 0400 command
+
 `chmod 0400 FileName.pem`
 
 
