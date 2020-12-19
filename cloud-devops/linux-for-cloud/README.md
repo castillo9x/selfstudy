@@ -31,6 +31,18 @@ run chmod 0400 command
 | mkdir *dir* |Make directory dir |
 | cd *dir* | Change directory to dir |
 | cd *..* | Go up a directory |
+| ls *<option>* | list files | 
+
+| ls <option> | Description |
+| ----------- | ----------- |
+| ls -a | Show all (including hidden) |
+| ls -R | Recursive list |
+| ls -r | Reverse order |
+| ls -t | Sort by last modified |
+| ls -S | Sort by file size |
+| ls -l | Long listing format |
+| ls -1 | One file per line |
+| ls -m | Comma-­sep­arated output |
 
 
 ## User Management
