@@ -24,6 +24,13 @@ run chmod 0400 command
 
 ## Files and Directories
 
+### Directory Operations
+| Syntax | Description |
+pwd | Show current directory
+mkdir dir |Make directory dir
+cd dir | Change directory to dir
+cd .. | Go up a directory
+
 
 ## User Management
 
