@@ -29,6 +29,7 @@ run chmod 0400 command
 | ----------- | ----------- |
 | pwd | Show current directory
 | mkdir *dir* |Make directory dir |
+| rmdir *dir* |Remove  directory dir |
 | cd *dir* | Change directory to dir |
 | cd *..* | Go up a directory |
 | ls *<option>* | list files | 
