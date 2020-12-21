@@ -32,6 +32,17 @@ run chmod 0400 command
 | uptime | Show uptime |
 | whoami | Show your username |
 
+## Bash Variables
+| Syntax | Description |
+| ----------- | ----------- |
+| env |Show enviro­nment variables |
+| echo $NAME | Output value of $NAME variable |
+| export NAME=value | Set $NAME to value |
+| $PATH | Executable search path |
+| $HOME | Home directory |
+| $SHELL | Current shell |
+
+
 
 
 ## Files and Directories
