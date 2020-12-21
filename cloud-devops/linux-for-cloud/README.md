@@ -58,10 +58,16 @@ run chmod 0400 command
 ## Pipes
 | Syntax | Description |
 | ----------- | ----------- |
-| "cmd1 | cmd2"| stdout of cmd1 to cmd2  |
-| "cmd1 |& cmd2"| stderr of cmd1 to cmd2|
+| `cmd1 | cmd2`| stdout of cmd1 to cmd2  |
+| `cmd1 |& cmd2`| stderr of cmd1 to cmd2|
 
-
+## Command Lists
+| Syntax | Description |
+| ----------- | ----------- |
+| cmd1 ; cmd2 | Run cmd1 then cmd2|
+| cmd1 && cmd2 | Run cmd2 if cmd1 is successful |
+| `cmd1 || cmd2` | Run cmd2 if cmd1 is not successful|
+| cmd & | Run cmd in a subshell|
 
 ## Files and Directories
 
