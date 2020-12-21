@@ -22,6 +22,18 @@ run chmod 0400 command
 `chmod 0400 FileName.pem`
 
 
+## Bash Commands
+| Syntax | Description |
+| ----------- | ----------- |
+| uname -a | Show system and kernel |
+| head -n1 /etc/issue | Show distri­bution |
+| mount | Show mounted filesy­stems |
+| date | Show system date |
+| uptime | Show uptime |
+| whoami | Show your username |
+
+
+
 ## Files and Directories
 
 ### Directory Operations
