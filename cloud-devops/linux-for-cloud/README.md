@@ -66,7 +66,7 @@ run chmod 0400 command
 | ----------- | ----------- |
 | cmd1 ; cmd2 | Run cmd1 then cmd2|
 | cmd1 && cmd2 | Run cmd2 if cmd1 is successful |
-| `cmd1 \|| cmd2` | Run cmd2 if cmd1 is not successful|
+| `cmd1 \|\| cmd2` | Run cmd2 if cmd1 is not successful|
 | cmd & | Run cmd in a subshell|
 
 ## Files and Directories
