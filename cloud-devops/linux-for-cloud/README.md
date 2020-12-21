@@ -80,7 +80,9 @@ run chmod 0400 command
 | grep hol file* | search "hol" in "file*" | search "hol" in "file*" |
 
 `file1:hole
+
 file2:hola
+
 file2:hola2
 `
 
