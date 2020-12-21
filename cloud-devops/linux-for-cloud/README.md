@@ -66,6 +66,9 @@ run chmod 0400 command
 | find . -name *file* | find a file, it will look for in current and sub-directories |
 | sudo find / -name *file* | find a file, it will look for in all directories |
 | find */home/username/* -name *"*jpg"* -mtime *4* | find a file, it will look for in /home/randomuser/ and have been modified in the preceding 4 days  |
+| whereis command | Find binary / source / manual for command|
+| locate file | Find file (quick search of system index) |
+
 
 ## Find files bases on content 
 
@@ -85,6 +88,12 @@ file2:hola
 
 file2:hola2
 `
+| Syntax | Description |
+| ----------- | ----------- |
+| sed [OPTION]... {script-only-if-no-other-script} [input-file]... | sA stream editor is used to perform basic text transformations on an input
+       stream (a file or input from a pipeline)|
+| sed *'s/old_text/new_text/'* *filename* | replace old_text by new_text in file_name |
+| sed *'s/old_text/new_text/g'* *filename* | replace old_text by new_text in file_name global |
 
 ## User Management
 
