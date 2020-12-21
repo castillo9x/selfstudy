@@ -69,6 +69,21 @@ run chmod 0400 command
 
 ## Find files bases on content 
 
+| Syntax | Description |
+| ----------- | ----------- |
+| diff [OPTION]... FILES | Compare FILES line by line.|
+| diff *file1* *file* | Compare FILES (file1 and file2) line by line.|
+
+| Syntax | Description |
+| ----------- | ----------- |
+| grep [OPTION...] PATTERNS [FILE...] | searches  for  PATTERNS  in  each  FILE.|
+| grep hol file* | search "hol" in "file*" | search "hol" in "file*" |
+
+`file1:hole
+file2:hola
+file2:hola2
+`
+
 ## User Management
 
 
