@@ -55,7 +55,11 @@ run chmod 0400 command
 | cmd 2>&1 | stderr to same place as stdout |
 | cmd &> file | Every output of cmd to file |
 
-
+## Pipes
+| Syntax | Description |
+| ----------- | ----------- |
+| cmd1 | cmd2 | stdout of cmd1 to cmd2  
+| cmd1 |& cmd2| stderr of cmd1 to cmd2
 
 
 ## Files and Directories
