@@ -59,6 +59,16 @@ run chmod 0400 command
 | tail file1 | Show last 10 lines of file1|
 | tail -F file1 | Output last lines of file1 as it changes|
 
+## Search Operations
+| Syntax | Description |
+| ----------- | ----------- |
+| find *dir* *-option* | find a file, it will look for in *-dir*. Options: [-name, -user, -group]|
+| find . -name file | find a file, it will look for in current and sub-directories |
+| sudo find / -name file | find a file, it will look for in all directories |
+| find /home/randomuser/ -name "*jpg" -mtime 4 | find a file, it will look for in /home/randomuser/ and have been modified in the preceding 4 days  |
+
+## Find files bases on content 
+
 ## User Management
 
 
