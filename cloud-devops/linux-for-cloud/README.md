@@ -58,8 +58,9 @@ run chmod 0400 command
 ## Pipes
 | Syntax | Description |
 | ----------- | ----------- |
-| cmd1 | cmd2 | stdout of cmd1 to cmd2  
-| cmd1 |& cmd2| stderr of cmd1 to cmd2
+| "cmd1 | cmd2"| stdout of cmd1 to cmd2  |
+| "cmd1 |& cmd2"| stderr of cmd1 to cmd2|
+
 
 
 ## Files and Directories
