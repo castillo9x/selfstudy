@@ -24,15 +24,25 @@ Ansible is a radically simple IT automation engine that automates cloud provisio
 ![Terraform keys](assets/iac-compare.png)
 
 ## Install Terraform
-Add the HashiCorp GPG key.
 
-`curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -`
+[Script to install Terraform](https://github.com/castillo9x/installation-scripts/blob/main/linux/terraform/install-terraform.sh)
 
-Add the official HashiCorp Linux repository.
+## Install Ansible
 
-`sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"`
+[Script to install Ansible](https://github.com/castillo9x/installation-scripts/blob/main/linux/ansible/install-ansible.sh)
 
-Update and install.
+## Install AWS-Cli
 
-`sudo apt-get update && sudo apt-get install terraform`
+[Script to install aws-cli](https://github.com/castillo9x/installation-scripts/blob/main/linux/aws-cli/install-aws-cli.sh)
+
+## AWS configure
+`aws configure`
+* Enter AWS Access Key
+* Enter Secret Access Key
+* Enter Region
+* Enter Format
+
+
+
+
 
