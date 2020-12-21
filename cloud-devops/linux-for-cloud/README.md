@@ -42,6 +42,19 @@ run chmod 0400 command
 | $HOME | Home directory |
 | $SHELL | Current shell |
 
+## IO Redire­ction
+| Syntax | Description |
+| ----------- | ----------- |
+| cmd < file | Input of cmd from file|
+| cmd1 <(cmd2) | Output of cmd2 as file input to cmd1 |
+| cmd > file | Standard output (stdout) of cmd to file |
+| cmd > /dev/null |Discard stdout of cmd |
+| cmd >> file | Append stdout to file |
+| cmd 2> file | Error output (stderr) of cmd to file |
+| cmd 1>&2 | stdout to same place as stderr |
+| cmd 2>&1 | stderr to same place as stdout |
+| cmd &> file | Every output of cmd to file |
+
 
 
 
