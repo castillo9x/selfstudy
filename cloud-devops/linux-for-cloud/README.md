@@ -63,9 +63,9 @@ run chmod 0400 command
 | Syntax | Description |
 | ----------- | ----------- |
 | find *dir* *-option* | find a file, it will look for in *-dir*. Options: [-name, -user, -group]|
-| find . -name file | find a file, it will look for in current and sub-directories |
-| sudo find / -name file | find a file, it will look for in all directories |
-| find /home/randomuser/ -name "*jpg" -mtime 4 | find a file, it will look for in /home/randomuser/ and have been modified in the preceding 4 days  |
+| find . -name *file* | find a file, it will look for in current and sub-directories |
+| sudo find / -name *file* | find a file, it will look for in all directories |
+| find */home/username/* -name *"*jpg"* -mtime *4* | find a file, it will look for in /home/randomuser/ and have been modified in the preceding 4 days  |
 
 ## Find files bases on content 
 
