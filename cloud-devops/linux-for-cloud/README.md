@@ -173,6 +173,18 @@ Whebever a user is created in Linux, below things happen by default
 | usermod -aG sales john | Add the john account to the sales group |
 
 ### File Permission Numbers
+
+Permissions are applied at 3 levels
+* Owner or User level
+* Group Level
+* Others level
+
+Permissions ar applied in 3 ways
+* r - Read only
+* w - Write/Edit/Append/Delete
+* x - Execute/Run
+
+
 First digit is owner permis­sion, second is group and third is everyone.
 Calculate permission digits by adding numbers below.
 
@@ -188,6 +200,8 @@ Calculate permission digits by adding numbers below.
 | chmod 775 *file* | Change mode of file to 775 |
 | chmod -R 600 *folder* | Recurs­ively chmod folder to 600 |
 | chown user:group *file* | Change file owner to user and group to group |
+
+![File permissions](./assets/file-permission.png)
 
 
 ## Networking
