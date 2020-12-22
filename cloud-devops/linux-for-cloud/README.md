@@ -172,7 +172,7 @@ Whebever a user is created in Linux, below things happen by default
 | userdel john | Delete the john account.|
 | usermod -aG sales john | Add the john account to the sales group |
 
-## File Permission Numbers
+### File Permission Numbers
 First digit is owner permis­sion, second is group and third is everyone.
 Calculate permission digits by adding numbers below.
 
@@ -181,6 +181,13 @@ Calculate permission digits by adding numbers below.
 | 4 | read (r) |
 | 2 | write (w) |
 | 1 | execute (x) |
+
+### File Permis­sions
+| Syntax | Description |
+| ----------- | ----------- |
+| chmod 775 *file* | Change mode of file to 775 |
+| chmod -R 600 *folder* | Recurs­ively chmod folder to 600 |
+| chown user:group *file* | Change file owner to user and group to group |
 
 
 ## Networking
