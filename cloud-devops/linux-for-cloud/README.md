@@ -203,6 +203,7 @@ Calculate permission digits by adding numbers below.
 
 ![File permissions](./assets/file-permission.png)
 
+![File permissions](./assets/file-permission2.png)
 
 ## Networking
 
