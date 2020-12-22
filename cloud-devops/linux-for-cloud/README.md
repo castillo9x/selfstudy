@@ -144,6 +144,34 @@ file2:hola2
 
 ## User Management
 
+* In linux there are three types of users:
+       * Super or root user: User is the mos powerful user. He is the administrator user
+       * System user: Users created by the softwares or applications
+       * Normal user: Normal users are the users created by root user
+
+| Type | Example | Home Directory | Shell |
+| ----------- | ----------- | ----------- | ----------- |
+| Super User | Root | /root | /bin/bash |
+| System User | ftp, ssh, apache | /var/ftp, etc  | /sbin/nologin |
+| Normal user | ec2-user | /home/ec2-user  | /bin/bash |
+
+### User Creation
+Whebever a user is created in Linux, below things happen by default
+* A home directory is created (/home/username)
+* unique UID & GID are given to user
+* An entry in etc/passwd
+
+| Syntax | Description |
+| ----------- | ----------- |
+| id | Display the user and group ids of your current user.|
+| last | # Display the last users who have logged onto the system. |
+| who | Show who is logged into the system. |
+| w | Show who is logged in and what they are doing.|
+| groupadd test | Create a group named "test". |
+| useradd -c "John Smith" -m john |  Create an account named john, with a comment of "John Smith" and create the user's home directory. |
+| userdel john | Delete the john account.|
+| usermod -aG sales john | Add the john account to the sales group |
+
 
 ## Networking
 
