@@ -172,6 +172,16 @@ Whebever a user is created in Linux, below things happen by default
 | userdel john | Delete the john account.|
 | usermod -aG sales john | Add the john account to the sales group |
 
+## File Permission Numbers
+First digit is owner permis­sion, second is group and third is everyone.
+Calculate permission digits by adding numbers below.
+
+| Number | Permission  |
+| ----------- | ----------- |
+| 4 | read (r) |
+| 2 | write (w) |
+| 1 | execute (x) |
+
 
 ## Networking
 
