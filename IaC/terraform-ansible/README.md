@@ -42,6 +42,33 @@ Ansible is a radically simple IT automation engine that automates cloud provisio
 * Enter Region
 * Enter Format
 
+## Terraform's life cycle
+
+![Terraform life cycle](assets/tf-life-cycle.png)
+
+The steps shown in the diagram follow this sequence:
+
+1. Code development
+2. Code formatting with *terraform fmt*
+    * Formats templates for readability
+    * Helps in keeping code consistent
+3. Initialization with *terraform init*
+    * Initializes working directory
+    * Needs to be run before deploying infraestructure
+    * Syncs config, safe to run
+4. Code validation with *terraform validate*
+    * VCalidates config files
+    * Needs *terraform init* to be run first
+5. Planning with *terraform plan*
+    * Create execution plan
+    * Fail-safe before actual deployment
+    * Execution plan can be saved using the -out flag
+6. Deploy with *terraform apply*
+    * Deploy the execution plan
+7. Manual verification of Terraform changes on infrastructure
+
+
+
 
 
 
