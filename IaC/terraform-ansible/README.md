@@ -57,7 +57,7 @@ The steps shown in the diagram follow this sequence:
     * Needs to be run before deploying infraestructure
     * Syncs config, safe to run
 4. Code validation with *terraform validate*
-    * VCalidates config files
+    * Validates config files
     * Needs *terraform init* to be run first
 5. Planning with *terraform plan*
     * Create execution plan
