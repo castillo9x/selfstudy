@@ -224,17 +224,32 @@ Calculate permission digits by adding numbers below.
 | df -h |show free and used space on |
 | df -i | mounted systems |
 | findmnt | show target mount point for all filesystems |
+| whereis | show possible locations of app |
+| which   | show which app will be run by default |
 
 ## Networking
 
-
+| Syntax | Description |
+| ----------- | ----------- |
+| ip addr show | List IP addresses and network interfaces|
+| ip address add [IP_address] | Assign an IP address to interface eth0 |
+| ifconfig | Display IP addresses of all network interfaces |
+| netstat -pnltu | See active (listening) ports |
+| netstat -nutlp | Show tcp and udp ports and their programs |
+| whois [domain] | Display more information about a domain |
+| dig [domain]  | Show DNS information about a domain using the dig command |
+| dig -x host | Do a reverse lookup on domain |
+| dig -x [ip_address] | Do reverse lookup of an IP address |
+| host [domain] | Perform an IP lookup for a domain |
+| hostname -I | Show the local IP address |
+| wget [file_name] | Download a file from a domain using the wget command |
 ## Services
+![Services commands](./assets/service.png)
 
 
 ## Process Management
 
 
-## Other Topics
 
 
 
