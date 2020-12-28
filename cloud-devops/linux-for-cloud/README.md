@@ -219,7 +219,11 @@ Calculate permission digits by adding numbers below.
 | cat /proc/cpuinfo | Display CPU information |
 | uname -a | Show Kernel information|
 | du | Show directory space usage |
-
+| du -ah | show free inodes on mounted |
+| du -sh | show disk usage of currents directory |
+| df -h |show free and used space on |
+| df -i | mounted systems |
+| findmnt | show target mount point for all filesystems |
 
 ## Networking
 
