@@ -213,6 +213,12 @@ Calculate permission digits by adding numbers below.
 | history | list all commands executed by a user |
 | history \| less | to view the history one page at a time |
 | history \| tail | to view just the last 25 commands |
+| free | free memory of a server |
+| free - m | free memory of a server in MB |
+| cat /proc/meminfo | Display memory information |
+| cat /proc/cpuinfo | Display CPU information |
+| uname -a | Show Kernel information|
+| du | Show directory space usage |
 
 
 ## Networking
