@@ -205,6 +205,16 @@ Calculate permission digits by adding numbers below.
 
 ![File permissions](./assets/file-permission2.png)
 
+
+## System Management
+| Syntax | Description |
+| ----------- | ----------- |
+| id | Display the user and group ids of your current user.|
+| history | list all commands executed by a user |
+| history \| less | to view the history one page at a time |
+| history\ | tail | to view just the last 25 commands |
+
+
 ## Networking
 
 
