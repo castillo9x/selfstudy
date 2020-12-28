@@ -244,7 +244,7 @@ Calculate permission digits by adding numbers below.
 | hostname -I | Show the local IP address |
 | wget [file_name] | Download a file from a domain using the wget command |
 ## Services
-![Services commands](./assets/service.png)
+![Services commands](./assets/services.png)
 
 
 ## Process Management
