@@ -264,6 +264,13 @@ Calculate permission digits by adding numbers below.
 | fg | # Brings the most recent background job to foreground |
 | fg n | # Brings the most recent background job to foreground |
 
+## Others
+
+### Link files
+
+![Services commands](./assets/link-files.png) 
+
+
 
 
 
