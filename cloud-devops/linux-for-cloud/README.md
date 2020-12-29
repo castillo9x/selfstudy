@@ -248,8 +248,21 @@ Calculate permission digits by adding numbers below.
 
 
 ## Process Management
+![Services commands](./assets/process-mgm.png) 
 
-
+| Syntax | Description |
+| ----------- | ----------- |
+| ps | Display your currently running processes|
+| ps -ef | # Display all the currently running processes on the system.|
+| ps \| grep processname | # Display process information for processname |
+| top | # Display and manage the top processes |
+| htop | # Interactive process viewer (top alternative)|
+| kill pid | # Kill process with process ID of pid |
+| killall processname | # Kill process with process ID of pid |
+| program & | # Kill process with process ID of pid |
+| bg |  # Display stopped or background jobs |
+| fg | # Brings the most recent background job to foreground |
+| fg n | # Brings the most recent background job to foreground |
 
 
 
